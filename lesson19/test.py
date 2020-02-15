@@ -1,12 +1,10 @@
-a = name * age
+
 
 
 def getName():
     name = input('your name> ')
-    return name
-
-def hello(name):
     print('Hi,' + name)
+    return name
 
 def age():
     age = input('how old are you > ')
@@ -14,14 +12,21 @@ def age():
 
 
 def check(name,age):
-    if (a == <30 and >40))
-
+    a = len(name) * age
+    print(a)
+    if (a > 30 and a < 40):
+        for index in name:
+            print(index)
+    elif a > 40:
+        print(name*3)
+    elif len(name)+age < 20:
+        print(name.upper())
     else:
-        print(check)
-    # print(getName + age)
+        print(len(name) + age)
 
 
 
 
-age()
-hello(getName())
+a = int(age())
+n = getName()
+check(n,a)
